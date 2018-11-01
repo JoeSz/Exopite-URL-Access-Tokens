@@ -1,0 +1,410 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-11-01 18:11+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: admin/class-exopite-url-access-tokens-admin.php:148
+msgid "Successful"
+msgstr ""
+
+#: admin/class-exopite-url-access-tokens-admin.php:151
+msgid "Failed"
+msgstr ""
+
+#: admin/class-exopite-url-access-tokens-admin.php:152
+msgid "Clear logs"
+msgstr ""
+
+#: admin/class-exopite-url-access-tokens-admin.php:158
+msgid "Time"
+msgstr ""
+
+#: admin/class-exopite-url-access-tokens-admin.php:159
+msgid "IP"
+msgstr ""
+
+#: admin/class-exopite-url-access-tokens-admin.php:160
+#: admin/class-exopite-url-access-tokens-admin.php:405
+msgid "Token"
+msgstr ""
+
+#: admin/class-exopite-url-access-tokens-admin.php:161
+msgid "Post ID"
+msgstr ""
+
+#: admin/class-exopite-url-access-tokens-admin.php:162
+msgid "Browser/OS"
+msgstr ""
+
+#: admin/class-exopite-url-access-tokens-admin.php:182
+msgid "Pages:"
+msgstr ""
+
+#: admin/class-exopite-url-access-tokens-admin.php:203
+msgid "Loading..."
+msgstr ""
+
+#: admin/class-exopite-url-access-tokens-admin.php:278
+msgid "Exopite Access Tokens"
+msgstr ""
+
+#: admin/class-exopite-url-access-tokens-admin.php:288
+msgid "General"
+msgstr ""
+
+#: admin/class-exopite-url-access-tokens-admin.php:295
+msgid "<p>TEXT</p>"
+msgstr ""
+
+#: admin/class-exopite-url-access-tokens-admin.php:302
+msgid "Activate Access Management"
+msgstr ""
+
+#: admin/class-exopite-url-access-tokens-admin.php:309
+msgid "Use session"
+msgstr ""
+
+#: admin/class-exopite-url-access-tokens-admin.php:311
+msgid ""
+"User tokens will saved in session for 30 days to later access (max 30 "
+"tokens). This will create a cookie in user computer."
+msgstr ""
+
+#: admin/class-exopite-url-access-tokens-admin.php:317
+msgid "Log access"
+msgstr ""
+
+#: admin/class-exopite-url-access-tokens-admin.php:319
+msgid ""
+"You can disable to create access logs here. This will not effect file logs."
+msgstr ""
+
+#: admin/class-exopite-url-access-tokens-admin.php:325
+msgid "Log in file"
+msgstr ""
+
+#: admin/class-exopite-url-access-tokens-admin.php:327
+msgid ""
+"Note: this will apply always for all notification type, even if you did not "
+"added. Create a separate file for each notification type. You will find the "
+"log files under:"
+msgstr ""
+
+#: admin/class-exopite-url-access-tokens-admin.php:327
+msgid ""
+"Max size is 1MB, then one backup file will be created and log file will be "
+"overwritten."
+msgstr ""
+
+#: admin/class-exopite-url-access-tokens-admin.php:333
+msgid "Display admin notification"
+msgstr ""
+
+#: admin/class-exopite-url-access-tokens-admin.php:335
+msgid "Display admin notification in frontend on protected sites."
+msgstr ""
+
+#: admin/class-exopite-url-access-tokens-admin.php:335
+msgid "Note: Admin can access all protected files with or without token(s)."
+msgstr ""
+
+#: admin/class-exopite-url-access-tokens-admin.php:341
+msgid "Select Post Types"
+msgstr ""
+
+#: admin/class-exopite-url-access-tokens-admin.php:357
+msgid "Select a post types"
+msgstr ""
+
+#: admin/class-exopite-url-access-tokens-admin.php:359
+msgid "to check tokens."
+msgstr ""
+
+#: admin/class-exopite-url-access-tokens-admin.php:359
+msgid "Note: After you change this, please reload the page."
+msgstr ""
+
+#: admin/class-exopite-url-access-tokens-admin.php:367
+msgid "Tokens"
+msgstr ""
+
+#: admin/class-exopite-url-access-tokens-admin.php:378
+msgid "Add new"
+msgstr ""
+
+#: admin/class-exopite-url-access-tokens-admin.php:379
+msgid "Token Title"
+msgstr ""
+
+#: admin/class-exopite-url-access-tokens-admin.php:388
+msgid "Name"
+msgstr ""
+
+#: admin/class-exopite-url-access-tokens-admin.php:391
+msgid "Name of the token"
+msgstr ""
+
+#: admin/class-exopite-url-access-tokens-admin.php:398
+msgid "Token Aktive"
+msgstr ""
+
+#: admin/class-exopite-url-access-tokens-admin.php:412
+msgid "Valid from"
+msgstr ""
+
+#: admin/class-exopite-url-access-tokens-admin.php:419
+msgid "Valid until"
+msgstr ""
+
+#: admin/class-exopite-url-access-tokens-admin.php:433
+msgid "Access Logs"
+msgstr ""
+
+#: admin/class-exopite-url-access-tokens-admin.php:454
+#: admin/class-exopite-url-access-tokens-admin.php:460
+msgid "Backup"
+msgstr ""
+
+#: admin/class-exopite-url-access-tokens-admin.php:505
+msgid "Notification via email"
+msgstr ""
+
+#: admin/class-exopite-url-access-tokens-admin.php:507
+#: admin/class-exopite-url-access-tokens-admin.php:515
+msgid "comma separated list"
+msgstr ""
+
+#: admin/class-exopite-url-access-tokens-admin.php:513
+msgid "Notification via telegram"
+msgstr ""
+
+#: admin/class-exopite-url-access-tokens-admin.php:553
+msgid "Protected by"
+msgstr ""
+
+#: admin/class-exopite-url-access-tokens-admin.php:553
+msgid "Show tokens"
+msgstr ""
+
+#: admin/class-exopite-url-access-tokens-admin.php:555
+msgid "Token(s)"
+msgstr ""
+
+#: admin/class-exopite-url-access-tokens-admin.php:555
+msgid "Go to plugin options"
+msgstr ""
+
+#: admin/exopite-simple-options/exopite-simple-options-framework-class.php:262
+#, php-format
+msgid "%s is missing in the configuration array"
+msgstr ""
+
+#: admin/exopite-simple-options/exopite-simple-options-framework-class.php:371
+msgid "Irks! An un-known error has occurred."
+msgstr ""
+
+#: admin/exopite-simple-options/exopite-simple-options-framework-class.php:708
+#: admin/exopite-simple-options/exopite-simple-options-framework-class.php:731
+msgid "Settings"
+msgstr ""
+
+#: admin/exopite-simple-options/exopite-simple-options-framework-class.php:794
+msgid "Add New"
+msgstr ""
+
+#: admin/exopite-simple-options/exopite-simple-options-framework-class.php:795
+msgid "Accordion Title"
+msgstr ""
+
+#: admin/exopite-simple-options/exopite-simple-options-framework-class.php:813
+#: admin/exopite-simple-options/exopite-simple-options-framework-class.php:817
+msgid "Plugin Options"
+msgstr ""
+
+#: admin/exopite-simple-options/exopite-simple-options-framework-class.php:1756
+msgid "ERROR:"
+msgstr ""
+
+#: admin/exopite-simple-options/exopite-simple-options-framework-class.php:1757
+msgid "This field class is not available!"
+msgstr ""
+
+#: admin/exopite-simple-options/exopite-simple-options-framework-class.php:1828
+msgid "Saving..."
+msgstr ""
+
+#: admin/exopite-simple-options/exopite-simple-options-framework-class.php:1828
+msgid "Saved Successfully."
+msgstr ""
+
+#: admin/exopite-simple-options/exopite-simple-options-framework-class.php:1842
+#: admin/exopite-simple-options/exopite-simple-options-framework-class.php:1857
+msgid "Save Settings"
+msgstr ""
+
+#: admin/exopite-simple-options/fields/attached.php:45
+#, php-format
+msgid "There is no attachment with type %s for this %s."
+msgstr ""
+
+#: admin/exopite-simple-options/fields/backup.php:41
+msgid "copy-paste your backup string here"
+msgstr ""
+
+#: admin/exopite-simple-options/fields/backup.php:42
+msgid "Are you sure, you want to overwrite existing options?"
+msgstr ""
+
+#: admin/exopite-simple-options/fields/backup.php:42
+msgid "Import a Backup"
+msgstr ""
+
+#: admin/exopite-simple-options/fields/backup.php:46
+msgid "Download Backup"
+msgstr ""
+
+#: admin/exopite-simple-options/fields/backup.php:49
+msgid "Please be sure for reset all of framework options."
+msgstr ""
+
+#: admin/exopite-simple-options/fields/backup.php:50
+msgid "Are you sure, you want to reset all options?"
+msgstr ""
+
+#: admin/exopite-simple-options/fields/backup.php:50
+msgid "Reset All Options"
+msgstr ""
+
+#: admin/exopite-simple-options/fields/group.php:281
+msgid "Max items:"
+msgstr ""
+
+#: admin/exopite-simple-options/fields/image.php:77
+msgid "Add Image"
+msgstr ""
+
+#: admin/exopite-simple-options/fields/upload.php:73
+msgid "Drop files here"
+msgstr ""
+
+#: admin/exopite-simple-options/fields/upload.php:83
+msgid "Select files"
+msgstr ""
+
+#: admin/exopite-simple-options/fields/upload.php:86
+msgid "Upload"
+msgstr ""
+
+#: admin/exopite-simple-options/fields/upload.php:90
+msgid "Processing dropped files..."
+msgstr ""
+
+#: admin/exopite-simple-options/fields/upload.php:108
+#: admin/exopite-simple-options/fields/upload.php:140
+msgid "Cancel"
+msgstr ""
+
+#: admin/exopite-simple-options/fields/upload.php:110
+msgid "Retry"
+msgstr ""
+
+#: admin/exopite-simple-options/fields/upload.php:112
+msgid "Delete"
+msgstr ""
+
+#: admin/exopite-simple-options/fields/upload.php:121
+msgid "Close"
+msgstr ""
+
+#: admin/exopite-simple-options/fields/upload.php:129
+msgid "No"
+msgstr ""
+
+#: admin/exopite-simple-options/fields/upload.php:131
+msgid "Yes"
+msgstr ""
+
+#: admin/exopite-simple-options/fields/upload.php:142
+msgid "Ok"
+msgstr ""
+
+#: admin/exopite-simple-options/fields/upload.php:181
+msgid "Max amount of files: "
+msgstr ""
+
+#: admin/exopite-simple-options/fields/upload.php:182
+msgid "Max file upload size: "
+msgstr ""
+
+#: admin/exopite-simple-options/fields/video.php:74
+msgid "Add Video"
+msgstr ""
+
+#: public/class-exopite-url-access-tokens-public.php:121
+msgid "Token aktive"
+msgstr ""
+
+#: vendor/plugin-update-checker/Puc/v4/Plugin/UpdateChecker.php:358
+#: vendor/plugin-update-checker/Puc/v4p4/Plugin/UpdateChecker.php:395
+msgid "Check for updates"
+msgstr ""
+
+#: vendor/plugin-update-checker/Puc/v4/Plugin/UpdateChecker.php:404
+msgid "This plugin is up to date."
+msgstr ""
+
+#: vendor/plugin-update-checker/Puc/v4/Plugin/UpdateChecker.php:406
+msgid "A new version of this plugin is available."
+msgstr ""
+
+#: vendor/plugin-update-checker/Puc/v4/Plugin/UpdateChecker.php:408
+#: vendor/plugin-update-checker/Puc/v4p4/Plugin/UpdateChecker.php:558
+#, php-format
+msgid "Unknown update checker status \"%s\""
+msgstr ""
+
+#: vendor/plugin-update-checker/Puc/v4/Vcs/PluginUpdateChecker.php:83
+#: vendor/plugin-update-checker/Puc/v4p4/Vcs/PluginUpdateChecker.php:98
+msgid "There is no changelog available."
+msgstr ""
+
+#: vendor/plugin-update-checker/Puc/v4p4/Plugin/UpdateChecker.php:432
+msgid "View details"
+msgstr ""
+
+#: vendor/plugin-update-checker/Puc/v4p4/Plugin/UpdateChecker.php:455
+#, php-format
+msgid "More information about %s"
+msgstr ""
+
+#: vendor/plugin-update-checker/Puc/v4p4/Plugin/UpdateChecker.php:548
+#, php-format
+msgctxt "the plugin title"
+msgid "The %s plugin is up to date."
+msgstr ""
+
+#: vendor/plugin-update-checker/Puc/v4p4/Plugin/UpdateChecker.php:550
+#, php-format
+msgctxt "the plugin title"
+msgid "A new version of the %s plugin is available."
+msgstr ""
+
+#: vendor/plugin-update-checker/Puc/v4p4/Plugin/UpdateChecker.php:552
+#, php-format
+msgctxt "the plugin title"
+msgid "Could not determine if updates are available for %s."
+msgstr ""
