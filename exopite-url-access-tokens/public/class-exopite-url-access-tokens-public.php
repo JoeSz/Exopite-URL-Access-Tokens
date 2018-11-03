@@ -93,7 +93,7 @@ class Exopite_Url_Access_Tokens_Public {
 	 */
 	public function enqueue_styles() {
 
-		wp_enqueue_style( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'css/exopite-url-access-tokens-public.css', array(), $this->version, 'all' );
+		wp_enqueue_style( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'css/exopite-url-access-tokens-public.min.css', array(), $this->version, 'all' );
 
 	}
 

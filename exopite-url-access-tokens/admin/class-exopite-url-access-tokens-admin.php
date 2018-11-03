@@ -75,7 +75,7 @@ class Exopite_Url_Access_Tokens_Admin {
 	 */
 	public function enqueue_styles() {
 
-		wp_enqueue_style( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'css/exopite-url-access-tokens-admin.css', array(), $this->version, 'all' );
+		wp_enqueue_style( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'css/exopite-url-access-tokens-admin.min.css', array(), $this->version, 'all' );
 
 	}
 
@@ -91,7 +91,7 @@ class Exopite_Url_Access_Tokens_Admin {
          */
         wp_enqueue_script( 'sweetalert', '//unpkg.com/sweetalert/dist/sweetalert.min.js',  false, '2.1.0', true );
 
-		wp_enqueue_script( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'js/exopite-url-access-tokens-admin.js', array( 'jquery' ), $this->version, false );
+		wp_enqueue_script( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'js/exopite-url-access-tokens-admin.min.js', array( 'jquery' ), $this->version, true );
 
 	}
 
@@ -171,7 +171,8 @@ class Exopite_Url_Access_Tokens_Admin {
             echo '<tr>';
             echo '<td class="token-log-time">' . $log->time . '</td>';
             echo '<td class="token-log-ip" title="' . $log->ip . '">' . $log->ip . '</td>';
-            echo '<td class="token-log-name" title="' . $token_name . '">' . $token_name . ' (' . $token .  ')</td>';
+            $token = ( isset( $token ) && ! empty( $token ) ) ? $token = ' (' . $token .  ')' : '';
+            echo '<td class="token-log-name" title="' . $token_name . '">' . $token_name . $token .  '</td>';
             if ( ! isset( $_POST['postId'] ) ) echo '<td class="token-log-post-id" title="Title: ' . get_the_title( $log->post_id ) . ' - ID: ' . $log->post_id . '"><a href="' . get_edit_post_link( $log->post_id ) . '">' . get_the_title( $log->post_id ) . '</a></td>';
             echo '<td class="token-log-browser" title="' . $log->browser . '"><i class="fa fa-info-circle" aria-hidden="true"></i></td>';
             echo '</tr>';
