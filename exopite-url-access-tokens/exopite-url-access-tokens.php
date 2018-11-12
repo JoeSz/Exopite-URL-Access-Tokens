@@ -15,7 +15,7 @@
  * @wordpress-plugin
  * Plugin Name:       Exopite URL Access Tokens
  * Plugin URI:        https://www.joeszalai.org/exopite-url-access-tokens
- * Description:       This is a short description of what the plugin does. It's displayed in the WordPress admin area.
+ * Description:       Secure, limit access to posts and pages via tokens.
  * Version:           20181101
  * Author:            Joe Szalai
  * Author URI:        https://www.joeszalai.org/
