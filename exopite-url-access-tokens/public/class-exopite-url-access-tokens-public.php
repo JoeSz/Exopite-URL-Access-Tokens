@@ -74,10 +74,10 @@ class Exopite_Url_Access_Tokens_Public {
 		$this->version = $version;
         $this->options = get_option( $this->plugin_name );
 
-        $this->log_in_file = ( $this->options['log_file'] == 'yes' );
-        $this->log_access = ( $this->options['log_access'] == 'yes' );
-        $this->use_session = ( $this->options['use_session'] == 'yes' );
-        $this->display_admin_notice = ( $this->options['admin_notification'] == 'yes' );
+        $this->log_in_file = ( isset( $this->options['log_file'] ) ) ? ( $this->options['log_file'] == 'yes' ) : false;
+        $this->log_access = ( isset( $this->options['log_access'] ) ) ? ( $this->options['log_access'] == 'yes' ) : false;
+        $this->use_session = ( isset( $this->options['use_session'] ) ) ? ( $this->options['use_session'] == 'yes' ) : false;
+        $this->display_admin_notice = ( isset( $this->options['admin_notification'] ) ) ? ( $this->options['admin_notification'] == 'yes' ) : false;
 
         if( ! function_exists( 'wp_get_current_user' ) ) {
             include( ABSPATH . "wp-includes/pluggable.php" );
