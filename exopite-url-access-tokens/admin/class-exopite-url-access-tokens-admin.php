@@ -533,12 +533,16 @@ class Exopite_Url_Access_Tokens_Admin {
         $now = strtotime( date( "Y-m-d" ) );
         $tokens_hash = array();
 
-        foreach ( $this->main->public->options['tokens'] as $token ) {
+        if ( isset( $this->main->public->options['tokens'] ) ) {
 
-            if ( ! $this->main->public->validate_token_time( $now, $token['token_from_date'], $token['token_until_date'] ) ) continue;
+            foreach ( $this->main->public->options['tokens'] as $token ) {
 
-            if ( isset( $token[$post_type] ) && is_array( $token[$post_type] ) && in_array( $post_id, $token[$post_type] ) ) {
-                $tokens_hash[] = $token['token_hash'];
+                if ( ! $this->main->public->validate_token_time( $now, $token['token_from_date'], $token['token_until_date'] ) ) continue;
+
+                if ( isset( $token[$post_type] ) && is_array( $token[$post_type] ) && in_array( $post_id, $token[$post_type] ) ) {
+                    $tokens_hash[] = $token['token_hash'];
+                }
+
             }
 
         }
