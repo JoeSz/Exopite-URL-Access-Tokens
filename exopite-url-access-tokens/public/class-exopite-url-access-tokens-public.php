@@ -283,7 +283,7 @@ class Exopite_Url_Access_Tokens_Public {
 
         foreach ($sorted_menu_objects as $key => $menu_object) {
 
-            if ( in_array( $menu_object->object_id, $this->post__not_in  ) ) {
+            if ( is_array( $this->post__not_in ) && in_array( $menu_object->object_id, $this->post__not_in  ) ) {
 
                 unset($sorted_menu_objects[$key]);
 
@@ -576,7 +576,7 @@ class Exopite_Url_Access_Tokens_Public {
             /**
              * Max 30 tokens.
              */
-            if ( count( $session_tokens ) > 30 ) {
+            if ( isset( $session_tokens ) && count( $session_tokens ) > 30 ) {
                 $session_tokens = array_slice( $session_tokens, 0, -30 );
             }
 
