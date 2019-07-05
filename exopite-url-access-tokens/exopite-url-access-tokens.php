@@ -16,7 +16,7 @@
  * Plugin Name:       Exopite URL Access Tokens
  * Plugin URI:        https://www.joeszalai.org/exopite-url-access-tokens
  * Description:       Secure, limit access to posts and pages via tokens.
- * Version:           20181101
+ * Version:           20190521
  * Author:            Joe Szalai
  * Author URI:        https://www.joeszalai.org/
  * License:           GPL-2.0+
@@ -36,7 +36,7 @@ if ( ! defined( 'WPINC' ) ) {
  * Rename this for your plugin and update it as you release new versions.
  */
 define( 'EXOPITE_URL_ACCESS_TOKENS_NAME', 'exopite-url-access-tokens' );
-define( 'EXOPITE_URL_ACCESS_TOKENS_VERSION', '20181101' );
+define( 'EXOPITE_URL_ACCESS_TOKENS_VERSION', '20190521' );
 define( 'EXOPITE_URL_ACCESS_TOKENS_PLUGIN_DIR', plugin_dir_path( __FILE__ ) );
 
 /**
