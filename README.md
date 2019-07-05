@@ -38,7 +38,10 @@ OR
 
 ## Changelog
 
-##### 20181101
+= 20190521 - 2019-05-21 =
+* Update: Update Exopite Simple Options Framework
+
+= 20181101 - 2018-11-01 =
 * Initial release.
 
 ## License Details
